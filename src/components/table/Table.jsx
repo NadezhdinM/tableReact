@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './table.css';
 import pencil from '../../assets/pencil.svg'
 import trash from '../../assets/trash.svg'

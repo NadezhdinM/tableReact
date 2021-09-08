@@ -4,7 +4,7 @@ import './App.css'
 import Popup from './components/popup/Popup';
 
 const App = () => {
-	const [items, setItems] = useState(JSON.parse(localStorage.getItem('services')));
+	const [items, setItems] = useState(JSON.parse(localStorage.getItem('services')) || []);
 	const [isVisible, setIsVisible] = useState(false);
 	const [name, setName] = useState('');
 	const [price, setPrice] = useState('');
